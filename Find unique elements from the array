@@ -1,0 +1,10 @@
+import numpy as np 
+Arr=np.array([35,15,12,15,35,12,15,14,17,25,14]) 
+print("Original Array:") 
+print(Arr) 
+Arr1=np.sort(Arr) 
+print("\nElements after sorting in array:") 
+print(Arr1) 
+Arr2=np.unique(Arr) 
+print("\nUnique elements are in array:") 
+print(Arr2)
